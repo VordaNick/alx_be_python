@@ -5,4 +5,7 @@ while True:
     else:
         print("Invalid input. Please enter a positive integer.")
 for i in range(n):
-    print("*" * n)
+    for j in range(n):
+        print("*", end="")
+    print()
+    
