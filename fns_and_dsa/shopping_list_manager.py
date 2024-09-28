@@ -10,11 +10,11 @@ def main():
         display_menu
         choice = input('Enter your choice: ')
         if choice == '1':
-            item = input('What item will you like to add?: ')
-            shopping_list.append({item})
+            item = input('Enter the item to add: ')
+            shopping_list.append(item)
         elif choice == '2':
-            item = input('Which item would you like to remove?: ')
-            shopping_list.remove({item})
+            item = input('Enter the item to remove: ')
+            shopping_list.remove(item)
         elif choice == '3':
             print(shopping_list)
         elif choice == '4':
@@ -22,3 +22,4 @@ def main():
             break
         else:
             print('Invalid choice. Please try again.')
+main()
