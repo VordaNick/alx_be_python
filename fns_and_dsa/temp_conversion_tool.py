@@ -1,7 +1,7 @@
 global FAHRENHEIT_TO_CELSIUS_FACTOR
 global CELSIUS_TO_FAHRENHEIT_FACTOR
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9 /5
 def celsius_to_fahrenheit(celsius):
     return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
 def fahrenheit_to_celsius(fahrenheit):
